@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE01C88A2598073500FAEFA0 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01C8892598073500FAEFA0 /* ProjectDetailView.swift */; };
+		BE01C89125980B4500FAEFA0 /* NavigationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01C89025980B4500FAEFA0 /* NavigationConfiguration.swift */; };
+		BE01C89525982F6800FAEFA0 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01C89425982F6800FAEFA0 /* NoteDetailView.swift */; };
+		BE26D370259A685C0053CF0C /* NoteGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26D36F259A685C0053CF0C /* NoteGridView.swift */; };
+		BE38E281259557E200CAE9EF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE38E280259557E200CAE9EF /* LoginView.swift */; };
+		BE3C963425A5212F007B38CA /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3C963325A5212F007B38CA /* NoteViewModel.swift */; };
+		BE3C963725A5213E007B38CA /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3C963625A5213E007B38CA /* ProjectViewModel.swift */; };
+		BE3C963A25A52148007B38CA /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3C963925A52148007B38CA /* UserViewModel.swift */; };
+		BE4071D12597B801007C063E /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4071D02597B801007C063E /* LoginButtonView.swift */; };
+		BE4071D42597B83C007C063E /* LoginTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4071D32597B83C007C063E /* LoginTitleView.swift */; };
+		BE4071D72597B85F007C063E /* LoginImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4071D62597B85F007C063E /* LoginImageView.swift */; };
+		BE4071DA2597B881007C063E /* LoginTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4071D92597B881007C063E /* LoginTextView.swift */; };
+		BE4071DD2597B8A9007C063E /* LoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4071DC2597B8A9007C063E /* LoginTextFieldView.swift */; };
+		BE4071E02597B8D1007C063E /* LoginCreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4071DF2597B8D1007C063E /* LoginCreateAccountView.swift */; };
+		BE4071E72597D569007C063E /* ProjectTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4071E62597D569007C063E /* ProjectTitleView.swift */; };
+		BE4071EA2597D588007C063E /* RecentTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4071E92597D588007C063E /* RecentTitleView.swift */; };
+		BE4071ED2597D5A9007C063E /* AddProjectButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4071EC2597D5A9007C063E /* AddProjectButtonView.swift */; };
+		BE4071F02597D9AB007C063E /* ProjectItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4071EF2597D9AB007C063E /* ProjectItemView.swift */; };
+		BE4071F32597DEFB007C063E /* NoteItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4071F22597DEFB007C063E /* NoteItemView.swift */; };
+		BE63F0E4259918F600E06760 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63F0E3259918F600E06760 /* ProjectListView.swift */; };
+		BE63F0E72599192400E06760 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63F0E62599192400E06760 /* NoteListView.swift */; };
+		BE8485EF2593D9FC00F59DCE /* NG_NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8485EE2593D9FC00F59DCE /* NG_NotesApp.swift */; };
+		BE8485F12593D9FC00F59DCE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8485F02593D9FC00F59DCE /* MainView.swift */; };
+		BE8485F32593D9FD00F59DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8485F22593D9FD00F59DCE /* Assets.xcassets */; };
+		BE8485F62593D9FD00F59DCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8485F52593D9FD00F59DCE /* Preview Assets.xcassets */; };
+		BE8486002593EFC300F59DCE /* OnboardingScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8485FF2593EFC300F59DCE /* OnboardingScreens.swift */; };
+		BE8486042593F34600F59DCE /* OnboardCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8486032593F34600F59DCE /* OnboardCard.swift */; };
+		BE8486072593F38200F59DCE /* OnboardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8486062593F38200F59DCE /* OnboardSet.swift */; };
+		BE84860A2593F55400F59DCE /* OnboardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8486092593F55400F59DCE /* OnboardCardView.swift */; };
+		BE84860D259404A200F59DCE /* OnboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84860C259404A200F59DCE /* OnboardData.swift */; };
+		BE9FAB4A25A8CEA900DABF66 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FAB4925A8CEA900DABF66 /* SignUpView.swift */; };
+		BE9FAB5025A8D46E00DABF66 /* SignUpTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FAB4F25A8D46E00DABF66 /* SignUpTextFieldView.swift */; };
+		BE9FAB5325A8DA6600DABF66 /* SignUpTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FAB5225A8DA6600DABF66 /* SignUpTextView.swift */; };
+		BE9FAB5625A8DAD900DABF66 /* SignUpButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FAB5525A8DAD900DABF66 /* SignUpButtonView.swift */; };
+		BE9FAB5925A8DFD700DABF66 /* SignUpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FAB5825A8DFD700DABF66 /* SignUpImageView.swift */; };
+		BE9FAB5C25A8E07C00DABF66 /* LoginTextFieldPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FAB5B25A8E07C00DABF66 /* LoginTextFieldPasswordView.swift */; };
+		BEA257DB259CE62E007F2CCD /* CreateProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA257DA259CE62E007F2CCD /* CreateProjectView.swift */; };
+		BEA257DF259CF2A6007F2CCD /* CreateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA257DE259CF2A6007F2CCD /* CreateNoteView.swift */; };
+		BEA257E2259CF314007F2CCD /* DeleteProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA257E1259CF314007F2CCD /* DeleteProjectView.swift */; };
+		BEA257E5259CF322007F2CCD /* DeleteNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA257E4259CF322007F2CCD /* DeleteNoteView.swift */; };
+		BEDB48F025A5136E003B80E5 /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB48ED25A5136E003B80E5 /* ProjectModel.swift */; };
+		BEDB48F125A5136E003B80E5 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB48EE25A5136E003B80E5 /* NoteModel.swift */; };
+		BEDB48F225A5136E003B80E5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDB48EF25A5136E003B80E5 /* UserModel.swift */; };
+		BEE0B5EA25A65216008BF4FA /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0B5E925A65216008BF4FA /* UserApi.swift */; };
+		BEE0B5EE25A65700008BF4FA /* ProjectApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0B5ED25A65700008BF4FA /* ProjectApi.swift */; };
+		BEE0B5F125A65A9D008BF4FA /* NoteApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0B5F025A65A9D008BF4FA /* NoteApi.swift */; };
+		BEE0B5F425A67AAB008BF4FA /* UsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0B5F325A67AAB008BF4FA /* UsernameView.swift */; };
+		BEE0B5F725A67FBF008BF4FA /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0B5F625A67FBF008BF4FA /* IconView.swift */; };
+		BEE0B5FA25A67FEF008BF4FA /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0B5F925A67FEF008BF4FA /* TitleView.swift */; };
+		BEEDDE1425ACDB9800C69513 /* NetworkErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEDDE1325ACDB9800C69513 /* NetworkErrorModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE01C8892598073500FAEFA0 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		BE01C89025980B4500FAEFA0 /* NavigationConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfiguration.swift; sourceTree = "<group>"; };
+		BE01C89425982F6800FAEFA0 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		BE26D36F259A685C0053CF0C /* NoteGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoteGridView.swift; path = "NG Notes/NoteGridView.swift"; sourceTree = SOURCE_ROOT; };
+		BE38E280259557E200CAE9EF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BE3C963325A5212F007B38CA /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		BE3C963625A5213E007B38CA /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
+		BE3C963925A52148007B38CA /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		BE4071D02597B801007C063E /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		BE4071D32597B83C007C063E /* LoginTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTitleView.swift; sourceTree = "<group>"; };
+		BE4071D62597B85F007C063E /* LoginImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginImageView.swift; sourceTree = "<group>"; };
+		BE4071D92597B881007C063E /* LoginTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextView.swift; sourceTree = "<group>"; };
+		BE4071DC2597B8A9007C063E /* LoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldView.swift; sourceTree = "<group>"; };
+		BE4071DF2597B8D1007C063E /* LoginCreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCreateAccountView.swift; sourceTree = "<group>"; };
+		BE4071E62597D569007C063E /* ProjectTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectTitleView.swift; path = ../Main/ProjectTitleView.swift; sourceTree = "<group>"; };
+		BE4071E92597D588007C063E /* RecentTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTitleView.swift; sourceTree = "<group>"; };
+		BE4071EC2597D5A9007C063E /* AddProjectButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectButtonView.swift; sourceTree = "<group>"; };
+		BE4071EF2597D9AB007C063E /* ProjectItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectItemView.swift; sourceTree = "<group>"; };
+		BE4071F22597DEFB007C063E /* NoteItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItemView.swift; sourceTree = "<group>"; };
+		BE63F0E3259918F600E06760 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectListView.swift; path = ../Main/ProjectListView.swift; sourceTree = "<group>"; };
+		BE63F0E62599192400E06760 /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoteListView.swift; path = ../Main/NoteListView.swift; sourceTree = "<group>"; };
+		BE8485EB2593D9FC00F59DCE /* NG Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NG Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8485EE2593D9FC00F59DCE /* NG_NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NG_NotesApp.swift; sourceTree = "<group>"; };
+		BE8485F02593D9FC00F59DCE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BE8485F22593D9FD00F59DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE8485F52593D9FD00F59DCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE8485F72593D9FD00F59DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8485FF2593EFC300F59DCE /* OnboardingScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreens.swift; sourceTree = "<group>"; };
+		BE8486032593F34600F59DCE /* OnboardCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardCard.swift; sourceTree = "<group>"; };
+		BE8486062593F38200F59DCE /* OnboardSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardSet.swift; sourceTree = "<group>"; };
+		BE8486092593F55400F59DCE /* OnboardCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardCardView.swift; sourceTree = "<group>"; };
+		BE84860C259404A200F59DCE /* OnboardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardData.swift; sourceTree = "<group>"; };
+		BE9FAB4925A8CEA900DABF66 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = ../Login/SignUpView.swift; sourceTree = "<group>"; };
+		BE9FAB4F25A8D46E00DABF66 /* SignUpTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpTextFieldView.swift; path = ../Login/SignUpTextFieldView.swift; sourceTree = "<group>"; };
+		BE9FAB5225A8DA6600DABF66 /* SignUpTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpTextView.swift; path = ../Login/SignUpTextView.swift; sourceTree = "<group>"; };
+		BE9FAB5525A8DAD900DABF66 /* SignUpButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpButtonView.swift; path = ../Login/SignUpButtonView.swift; sourceTree = "<group>"; };
+		BE9FAB5825A8DFD700DABF66 /* SignUpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpImageView.swift; path = ../Login/SignUpImageView.swift; sourceTree = "<group>"; };
+		BE9FAB5B25A8E07C00DABF66 /* LoginTextFieldPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldPasswordView.swift; sourceTree = "<group>"; };
+		BEA257DA259CE62E007F2CCD /* CreateProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateProjectView.swift; path = ../CreateProjectView.swift; sourceTree = "<group>"; };
+		BEA257DE259CF2A6007F2CCD /* CreateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateNoteView.swift; path = ../CreateNoteView.swift; sourceTree = "<group>"; };
+		BEA257E1259CF314007F2CCD /* DeleteProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeleteProjectView.swift; path = ../DeleteProjectView.swift; sourceTree = "<group>"; };
+		BEA257E4259CF322007F2CCD /* DeleteNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeleteNoteView.swift; path = ../DeleteNoteView.swift; sourceTree = "<group>"; };
+		BEDB48ED25A5136E003B80E5 /* ProjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
+		BEDB48EE25A5136E003B80E5 /* NoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		BEDB48EF25A5136E003B80E5 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BEE0B5E925A65216008BF4FA /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		BEE0B5ED25A65700008BF4FA /* ProjectApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectApi.swift; sourceTree = "<group>"; };
+		BEE0B5F025A65A9D008BF4FA /* NoteApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteApi.swift; sourceTree = "<group>"; };
+		BEE0B5F325A67AAB008BF4FA /* UsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsernameView.swift; path = ../UsernameView.swift; sourceTree = "<group>"; };
+		BEE0B5F625A67FBF008BF4FA /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		BEE0B5F925A67FEF008BF4FA /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TitleView.swift; path = ../TitleView.swift; sourceTree = "<group>"; };
+		BEEDDE1325ACDB9800C69513 /* NetworkErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE8485E82593D9FC00F59DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE38E27E25950F0000CAE9EF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BE38E280259557E200CAE9EF /* LoginView.swift */,
+				BE4071D02597B801007C063E /* LoginButtonView.swift */,
+				BE4071D32597B83C007C063E /* LoginTitleView.swift */,
+				BE4071D62597B85F007C063E /* LoginImageView.swift */,
+				BE4071D92597B881007C063E /* LoginTextView.swift */,
+				BE4071DC2597B8A9007C063E /* LoginTextFieldView.swift */,
+				BE4071DF2597B8D1007C063E /* LoginCreateAccountView.swift */,
+				BE9FAB5B25A8E07C00DABF66 /* LoginTextFieldPasswordView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BE3C963125A51F47007B38CA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BE3C963325A5212F007B38CA /* NoteViewModel.swift */,
+				BE3C963625A5213E007B38CA /* ProjectViewModel.swift */,
+				BE3C963925A52148007B38CA /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BE4071E22597C6AA007C063E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BE8485F02593D9FC00F59DCE /* MainView.swift */,
+				BEE0B5F325A67AAB008BF4FA /* UsernameView.swift */,
+				BEE0B5F925A67FEF008BF4FA /* TitleView.swift */,
+				BE4071E92597D588007C063E /* RecentTitleView.swift */,
+				BE4071EC2597D5A9007C063E /* AddProjectButtonView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BE8485E22593D9FC00F59DCE = {
+			isa = PBXGroup;
+			children = (
+				BE8485ED2593D9FC00F59DCE /* NG Notes */,
+				BE8485EC2593D9FC00F59DCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE8485EC2593D9FC00F59DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE8485EB2593D9FC00F59DCE /* NG Notes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE8485ED2593D9FC00F59DCE /* NG Notes */ = {
+			isa = PBXGroup;
+			children = (
+				BE01C89025980B4500FAEFA0 /* NavigationConfiguration.swift */,
+				BEE0B5F625A67FBF008BF4FA /* IconView.swift */,
+				BE8485EE2593D9FC00F59DCE /* NG_NotesApp.swift */,
+				BE8485F72593D9FD00F59DCE /* Info.plist */,
+				BE8485F22593D9FD00F59DCE /* Assets.xcassets */,
+				BE8485F52593D9FD00F59DCE /* Preview Assets.xcassets */,
+				BEDB48EC25A5136E003B80E5 /* Models */,
+				BEE0B5E825A651FB008BF4FA /* Api */,
+				BE3C963125A51F47007B38CA /* ViewModels */,
+				BE4071E22597C6AA007C063E /* Main */,
+				BE38E27E25950F0000CAE9EF /* Login */,
+				BE8E37B225C1D2F200BC9AA3 /* SignUp */,
+				BECA59892597FCDA0081DEB9 /* Note */,
+				BECA59882597FCC50081DEB9 /* Project */,
+				BE8485FE2593EFA800F59DCE /* Onboarding */,
+				BE8485F42593D9FD00F59DCE /* Preview Content */,
+			);
+			path = "NG Notes";
+			sourceTree = "<group>";
+		};
+		BE8485F42593D9FD00F59DCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE8485FE2593EFA800F59DCE /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				BE8485FF2593EFC300F59DCE /* OnboardingScreens.swift */,
+				BE8486032593F34600F59DCE /* OnboardCard.swift */,
+				BE8486062593F38200F59DCE /* OnboardSet.swift */,
+				BE8486092593F55400F59DCE /* OnboardCardView.swift */,
+				BE84860C259404A200F59DCE /* OnboardData.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		BE8E37B225C1D2F200BC9AA3 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				BE9FAB4925A8CEA900DABF66 /* SignUpView.swift */,
+				BE9FAB4F25A8D46E00DABF66 /* SignUpTextFieldView.swift */,
+				BE9FAB5225A8DA6600DABF66 /* SignUpTextView.swift */,
+				BE9FAB5525A8DAD900DABF66 /* SignUpButtonView.swift */,
+				BE9FAB5825A8DFD700DABF66 /* SignUpImageView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		BECA59882597FCC50081DEB9 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				BEA257DA259CE62E007F2CCD /* CreateProjectView.swift */,
+				BEA257E1259CF314007F2CCD /* DeleteProjectView.swift */,
+				BE4071EF2597D9AB007C063E /* ProjectItemView.swift */,
+				BE01C8892598073500FAEFA0 /* ProjectDetailView.swift */,
+				BE63F0E3259918F600E06760 /* ProjectListView.swift */,
+				BE4071E62597D569007C063E /* ProjectTitleView.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		BECA59892597FCDA0081DEB9 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				BEA257DE259CF2A6007F2CCD /* CreateNoteView.swift */,
+				BEA257E4259CF322007F2CCD /* DeleteNoteView.swift */,
+				BE26D36F259A685C0053CF0C /* NoteGridView.swift */,
+				BE01C89425982F6800FAEFA0 /* NoteDetailView.swift */,
+				BE4071F22597DEFB007C063E /* NoteItemView.swift */,
+				BE63F0E62599192400E06760 /* NoteListView.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		BEDB48EC25A5136E003B80E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB48ED25A5136E003B80E5 /* ProjectModel.swift */,
+				BEDB48EE25A5136E003B80E5 /* NoteModel.swift */,
+				BEDB48EF25A5136E003B80E5 /* UserModel.swift */,
+				BEEDDE1325ACDB9800C69513 /* NetworkErrorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BEE0B5E825A651FB008BF4FA /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				BEE0B5E925A65216008BF4FA /* UserApi.swift */,
+				BEE0B5ED25A65700008BF4FA /* ProjectApi.swift */,
+				BEE0B5F025A65A9D008BF4FA /* NoteApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE8485EA2593D9FC00F59DCE /* NG Notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8485FA2593D9FD00F59DCE /* Build configuration list for PBXNativeTarget "NG Notes" */;
+			buildPhases = (
+				BE8485E72593D9FC00F59DCE /* Sources */,
+				BE8485E82593D9FC00F59DCE /* Frameworks */,
+				BE8485E92593D9FC00F59DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NG Notes";
+			productName = "NG Notes";
+			productReference = BE8485EB2593D9FC00F59DCE /* NG Notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE8485E32593D9FC00F59DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					BE8485EA2593D9FC00F59DCE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = BE8485E62593D9FC00F59DCE /* Build configuration list for PBXProject "NG Notes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE8485E22593D9FC00F59DCE;
+			productRefGroup = BE8485EC2593D9FC00F59DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE8485EA2593D9FC00F59DCE /* NG Notes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE8485E92593D9FC00F59DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8485F62593D9FD00F59DCE /* Preview Assets.xcassets in Resources */,
+				BE8485F32593D9FD00F59DCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE8485E72593D9FC00F59DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8485F12593D9FC00F59DCE /* MainView.swift in Sources */,
+				BE9FAB5325A8DA6600DABF66 /* SignUpTextView.swift in Sources */,
+				BE8486002593EFC300F59DCE /* OnboardingScreens.swift in Sources */,
+				BE8485EF2593D9FC00F59DCE /* NG_NotesApp.swift in Sources */,
+				BE4071F32597DEFB007C063E /* NoteItemView.swift in Sources */,
+				BE4071DA2597B881007C063E /* LoginTextView.swift in Sources */,
+				BE63F0E4259918F600E06760 /* ProjectListView.swift in Sources */,
+				BE4071D42597B83C007C063E /* LoginTitleView.swift in Sources */,
+				BE8486042593F34600F59DCE /* OnboardCard.swift in Sources */,
+				BE01C89525982F6800FAEFA0 /* NoteDetailView.swift in Sources */,
+				BEE0B5F725A67FBF008BF4FA /* IconView.swift in Sources */,
+				BEDB48F225A5136E003B80E5 /* UserModel.swift in Sources */,
+				BE01C88A2598073500FAEFA0 /* ProjectDetailView.swift in Sources */,
+				BE4071DD2597B8A9007C063E /* LoginTextFieldView.swift in Sources */,
+				BE4071D72597B85F007C063E /* LoginImageView.swift in Sources */,
+				BE3C963725A5213E007B38CA /* ProjectViewModel.swift in Sources */,
+				BEEDDE1425ACDB9800C69513 /* NetworkErrorModel.swift in Sources */,
+				BE4071E02597B8D1007C063E /* LoginCreateAccountView.swift in Sources */,
+				BEE0B5FA25A67FEF008BF4FA /* TitleView.swift in Sources */,
+				BEE0B5F425A67AAB008BF4FA /* UsernameView.swift in Sources */,
+				BE9FAB5925A8DFD700DABF66 /* SignUpImageView.swift in Sources */,
+				BEDB48F025A5136E003B80E5 /* ProjectModel.swift in Sources */,
+				BE3C963425A5212F007B38CA /* NoteViewModel.swift in Sources */,
+				BE26D370259A685C0053CF0C /* NoteGridView.swift in Sources */,
+				BEE0B5EA25A65216008BF4FA /* UserApi.swift in Sources */,
+				BEE0B5EE25A65700008BF4FA /* ProjectApi.swift in Sources */,
+				BE4071D12597B801007C063E /* LoginButtonView.swift in Sources */,
+				BEDB48F125A5136E003B80E5 /* NoteModel.swift in Sources */,
+				BE9FAB5025A8D46E00DABF66 /* SignUpTextFieldView.swift in Sources */,
+				BEA257DF259CF2A6007F2CCD /* CreateNoteView.swift in Sources */,
+				BE01C89125980B4500FAEFA0 /* NavigationConfiguration.swift in Sources */,
+				BE84860D259404A200F59DCE /* OnboardData.swift in Sources */,
+				BE9FAB5625A8DAD900DABF66 /* SignUpButtonView.swift in Sources */,
+				BE4071F02597D9AB007C063E /* ProjectItemView.swift in Sources */,
+				BE3C963A25A52148007B38CA /* UserViewModel.swift in Sources */,
+				BE9FAB4A25A8CEA900DABF66 /* SignUpView.swift in Sources */,
+				BEA257E2259CF314007F2CCD /* DeleteProjectView.swift in Sources */,
+				BE84860A2593F55400F59DCE /* OnboardCardView.swift in Sources */,
+				BEA257E5259CF322007F2CCD /* DeleteNoteView.swift in Sources */,
+				BE38E281259557E200CAE9EF /* LoginView.swift in Sources */,
+				BE4071E72597D569007C063E /* ProjectTitleView.swift in Sources */,
+				BEE0B5F125A65A9D008BF4FA /* NoteApi.swift in Sources */,
+				BE63F0E72599192400E06760 /* NoteListView.swift in Sources */,
+				BE4071EA2597D588007C063E /* RecentTitleView.swift in Sources */,
+				BEA257DB259CE62E007F2CCD /* CreateProjectView.swift in Sources */,
+				BE8486072593F38200F59DCE /* OnboardSet.swift in Sources */,
+				BE4071ED2597D5A9007C063E /* AddProjectButtonView.swift in Sources */,
+				BE9FAB5C25A8E07C00DABF66 /* LoginTextFieldPasswordView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE8485F82593D9FD00F59DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE8485F92593D9FD00F59DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE8485FB2593D9FD00F59DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NG Notes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NG Notes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northrop-Grumman.NG-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BE8485FC2593D9FD00F59DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NG Notes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NG Notes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northrop-Grumman.NG-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE8485E62593D9FC00F59DCE /* Build configuration list for PBXProject "NG Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8485F82593D9FD00F59DCE /* Debug */,
+				BE8485F92593D9FD00F59DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8485FA2593D9FD00F59DCE /* Build configuration list for PBXNativeTarget "NG Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8485FB2593D9FD00F59DCE /* Debug */,
+				BE8485FC2593D9FD00F59DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE8485E32593D9FC00F59DCE /* Project object */;
+}
